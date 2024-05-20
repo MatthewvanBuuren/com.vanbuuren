@@ -1,0 +1,300 @@
+@font-face {
+    font-family: "GeogrotesqueReg";
+    src: url("../font/geogrotesque/Geogtq-Rg.otf");
+}
+
+@font-face {
+    font-family: "GeogrotesqueLight";
+    src: url("../font/geogrotesque/Geogtq-Lg.otf");
+}
+
+@font-face {
+    font-family: "GeogrotesqueMedium";
+    src: url("../font/geogrotesque/Geogtq-Md.otf");
+}
+
+@font-face {
+    font-family: "GeogrotesqueSemiBold";
+    src: url("../font/geogrotesque/Geogtq-Sb.otf");
+}
+
+@font-face {
+    font-family: "GeogrotesqueBold";
+    src: url("../font/geogrotesque/Geogtq-Bd.otf");
+}
+
+body {
+    background: none repeat-x scroll left bottom #1F2327;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    min-width: 1024px;
+}
+
+#container h1 {
+    display: block;
+    color: #5F5F5F;
+    font-family: GeogrotesqueMedium,Helvetica,Arial,sans-serif;
+    height: 40px;
+    padding-top: 20px;
+    margin-left: 100px;
+    width: 210px;
+}
+
+#centerwell {
+    background: none repeat scroll 0 0 #D1763A;
+    height: 69px;
+    overflow: hidden;
+    position: relative;
+}
+
+#centerwell li {
+    background: none repeat scroll 0 0 white;
+    border-right: 1px solid #3D464E;
+    cursor: pointer;
+    float: left;
+    height: 69px;
+    overflow: hidden;
+    position: relative;
+    width: 72px;
+}
+
+#centerwell h3 {
+    height: 69px;
+    left: 0;
+    position: absolute;
+    text-indent: -9999px;
+    top: 0;
+    width: 72px;
+}
+
+#centerwell p {
+    color: #5F5F5F;
+    font-family: GeogrotesqueMedium,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin-left: 85px;
+    margin-top: 20px;
+    padding-top: 40px;
+    width: 215px;
+}
+
+#linkedin h3 {
+    background: url("../images/linkedin_btn.gif") no-repeat scroll 0 0 transparent;
+}
+
+#linkedin p {
+    background: url("../images/linkedin_over_bg.gif") no-repeat scroll 0 0 transparent;
+}
+
+#facebook h3 {
+    background: url("../images/facebook_btn.gif") no-repeat scroll 0 0 transparent;
+}
+
+#facebook p {
+    background: url("../images/facebook_over_bg.gif") no-repeat scroll 0 0 transparent;
+}
+
+#twitter h3 {
+    background: url("../images/twitter_btn.gif") no-repeat scroll 0 0 transparent;
+}
+
+#twitter p {
+    background: url("../images/twitter_over_bg.gif") no-repeat scroll 0 0 transparent;
+}
+
+#twitch h3 {
+    background: url("../images/twitch_btn.gif") no-repeat scroll 0 0 transparent;
+}
+
+#twitch p {
+    background: url("../images/twitch_over_bg.gif") no-repeat scroll 0 0 transparent;
+}
+
+#resume h3 {
+    background: url("../images/resume_btn.gif") no-repeat scroll 0 0 transparent;
+}
+
+#resume p {
+    background: url("../images/resume_over_bg.gif") no-repeat scroll 0 0 transparent;
+}
+
+#email h3 {
+    background: url("../images/email_btn.gif") no-repeat scroll 0 0 transparent;
+}
+
+#email p {
+    background: url("../images/email_over_bg.gif") no-repeat scroll 0 0 transparent;
+}
+
+#contact h3 {
+    background: url("../images/contact_btn.gif") no-repeat scroll 0 0 transparent;
+}
+
+#contact p {
+    background: url("../images/contact_over_bg.gif") no-repeat scroll 0 0 transparent;
+}
+
+
+#linkedin {
+    margin-left: 300px;
+}
+
+#content {
+    padding-bottom: 300px;
+    position: relative;
+    width: 1200px;
+	height: 400px
+}
+
+#primary_content {
+    padding-left: 300px;
+    padding-right: 40px;
+    padding-top: 30px;
+	padding-bottom: 30px;
+    width: 600px;
+}
+
+#primary_content p, #primary_content span, #primary_content em {
+    color: #657381;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 16px;
+}
+
+#primary_content h2 {
+    font-family: GeogrotesqueLight,Helvetica,Arial,sans-serif;
+    font-size: 35px;
+    letter-spacing: 1px;
+    line-height: 33px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+#primary_content span.title.current {
+    display: block;
+    font-family: GeogrotesqueReg,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+
+#primary_content h2 a, #primary_content h1, #primary_content h2, #primary_content h3 {
+    color: #00AAF0;
+}
+
+#primary_content h3 {
+    border-left: 400px solid #262B30;
+    font-family: GeogrotesqueReg,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    margin-left: -400px;
+    margin-top: 38px;
+    padding-left: 3px;
+}
+
+#primary_content h5, #primary_content span.location {
+    color: #9EAEBE;
+    display: block;
+    font-family: GeogrotesqueMedium,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+#primary_content span.title {
+}
+
+#positions li {
+    margin-bottom: 20px;
+    position: relative;
+}
+#positions li em {
+    display: block;
+    margin-bottom: 6px;
+}
+
+#positions li span.logo-amzn {
+    background: top left url("../images/amzn.png") no-repeat;
+}
+#positions li span.logo-amzn-firetv {
+    background: top left url("../images/amzn-firetv.png") no-repeat;
+}
+#positions li span.logo-markit {
+    background: top left url("../images/markit.jpg") no-repeat;
+}
+
+#positions li span.date {
+    color: #373E46;
+    font-family: GeogrotesqueReg,Helvetica,Arial,sans-serif;
+    left: -90px;
+    position: absolute;
+    top: -1px;
+    width: 85px;
+}
+#positions li span.location {
+    color: #373E46;
+    font-family: GeogrotesqueReg,Helvetica,Arial,sans-serif;
+    left: -90px;
+    position: absolute;
+    top: 30px;
+    width: 85px;
+}
+
+#secondary_content {
+    background: none repeat scroll 0 0 #262B30;
+    color: #9EAEBE;
+    font-size: 11px;
+    overflow: hidden;
+    padding: 180px 15px 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 190px;
+}
+
+#secondary_content h5 {
+    color: #00AAF0;
+    font-family: GeogrotesqueReg,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+#secondary_content ul li h6 {
+    color: #9EAEBE;
+    font-family: GeogrotesqueReg,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+#secondary_content ul li p {
+    color: #657381;
+    line-height: 15px;
+    margin-bottom: 15px;
+}
+
+#client_list {
+    color: #00AAF0;
+    font-family: GeogrotesqueReg,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    margin-top: 40px;
+}
+
+#client_names {
+    color: #657381;
+    float: left;
+    line-height: 16px;
+    list-style: none outside none;
+    margin: 0 0 10px;
+    padding: 0;
+    width: 200px;
+}
+
+#client_names li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 10em;
+}
